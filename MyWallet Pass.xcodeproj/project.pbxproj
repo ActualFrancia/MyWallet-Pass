@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		916100062B2CEE2E00604F88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916100052B2CEE2E00604F88 /* AppDelegate.swift */; };
+		916100082B2CEE2E00604F88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916100072B2CEE2E00604F88 /* SceneDelegate.swift */; };
+		9161000A2B2CEE2E00604F88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916100092B2CEE2E00604F88 /* ViewController.swift */; };
+		9161000D2B2CEE2E00604F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9161000B2B2CEE2E00604F88 /* Main.storyboard */; };
+		9161000F2B2CEE2F00604F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9161000E2B2CEE2F00604F88 /* Assets.xcassets */; };
+		916100122B2CEE2F00604F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916100102B2CEE2F00604F88 /* LaunchScreen.storyboard */; };
+		9161001D2B2CEE2F00604F88 /* MyWallet_PassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9161001C2B2CEE2F00604F88 /* MyWallet_PassTests.swift */; };
+		916100272B2CEE2F00604F88 /* MyWallet_PassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916100262B2CEE2F00604F88 /* MyWallet_PassUITests.swift */; };
+		916100292B2CEE2F00604F88 /* MyWallet_PassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916100282B2CEE2F00604F88 /* MyWallet_PassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		916100192B2CEE2F00604F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9161FFFA2B2CEE2E00604F88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 916100012B2CEE2E00604F88;
+			remoteInfo = "MyWallet Pass";
+		};
+		916100232B2CEE2F00604F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9161FFFA2B2CEE2E00604F88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 916100012B2CEE2E00604F88;
+			remoteInfo = "MyWallet Pass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		916100022B2CEE2E00604F88 /* MyWallet Pass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWallet Pass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916100052B2CEE2E00604F88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		916100072B2CEE2E00604F88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		916100092B2CEE2E00604F88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9161000C2B2CEE2E00604F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9161000E2B2CEE2F00604F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		916100112B2CEE2F00604F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		916100132B2CEE2F00604F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916100182B2CEE2F00604F88 /* MyWallet PassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWallet PassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9161001C2B2CEE2F00604F88 /* MyWallet_PassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWallet_PassTests.swift; sourceTree = "<group>"; };
+		916100222B2CEE2F00604F88 /* MyWallet PassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWallet PassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916100262B2CEE2F00604F88 /* MyWallet_PassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWallet_PassUITests.swift; sourceTree = "<group>"; };
+		916100282B2CEE2F00604F88 /* MyWallet_PassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWallet_PassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		916100152B2CEE2F00604F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9161001F2B2CEE2F00604F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9161FFFF2B2CEE2E00604F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		916100032B2CEE2E00604F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				916100022B2CEE2E00604F88 /* MyWallet Pass.app */,
+				916100182B2CEE2F00604F88 /* MyWallet PassTests.xctest */,
+				916100222B2CEE2F00604F88 /* MyWallet PassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		916100042B2CEE2E00604F88 /* MyWallet Pass */ = {
+			isa = PBXGroup;
+			children = (
+				916100052B2CEE2E00604F88 /* AppDelegate.swift */,
+				916100072B2CEE2E00604F88 /* SceneDelegate.swift */,
+				916100092B2CEE2E00604F88 /* ViewController.swift */,
+				9161000B2B2CEE2E00604F88 /* Main.storyboard */,
+				9161000E2B2CEE2F00604F88 /* Assets.xcassets */,
+				916100102B2CEE2F00604F88 /* LaunchScreen.storyboard */,
+				916100132B2CEE2F00604F88 /* Info.plist */,
+			);
+			path = "MyWallet Pass";
+			sourceTree = "<group>";
+		};
+		9161001B2B2CEE2F00604F88 /* MyWallet PassTests */ = {
+			isa = PBXGroup;
+			children = (
+				9161001C2B2CEE2F00604F88 /* MyWallet_PassTests.swift */,
+			);
+			path = "MyWallet PassTests";
+			sourceTree = "<group>";
+		};
+		916100252B2CEE2F00604F88 /* MyWallet PassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				916100262B2CEE2F00604F88 /* MyWallet_PassUITests.swift */,
+				916100282B2CEE2F00604F88 /* MyWallet_PassUITestsLaunchTests.swift */,
+			);
+			path = "MyWallet PassUITests";
+			sourceTree = "<group>";
+		};
+		9161FFF92B2CEE2E00604F88 = {
+			isa = PBXGroup;
+			children = (
+				916100042B2CEE2E00604F88 /* MyWallet Pass */,
+				9161001B2B2CEE2F00604F88 /* MyWallet PassTests */,
+				916100252B2CEE2F00604F88 /* MyWallet PassUITests */,
+				916100032B2CEE2E00604F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		916100012B2CEE2E00604F88 /* MyWallet Pass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9161002C2B2CEE2F00604F88 /* Build configuration list for PBXNativeTarget "MyWallet Pass" */;
+			buildPhases = (
+				9161FFFE2B2CEE2E00604F88 /* Sources */,
+				9161FFFF2B2CEE2E00604F88 /* Frameworks */,
+				916100002B2CEE2E00604F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyWallet Pass";
+			productName = "MyWallet Pass";
+			productReference = 916100022B2CEE2E00604F88 /* MyWallet Pass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		916100172B2CEE2F00604F88 /* MyWallet PassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9161002F2B2CEE2F00604F88 /* Build configuration list for PBXNativeTarget "MyWallet PassTests" */;
+			buildPhases = (
+				916100142B2CEE2F00604F88 /* Sources */,
+				916100152B2CEE2F00604F88 /* Frameworks */,
+				916100162B2CEE2F00604F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9161001A2B2CEE2F00604F88 /* PBXTargetDependency */,
+			);
+			name = "MyWallet PassTests";
+			productName = "MyWallet PassTests";
+			productReference = 916100182B2CEE2F00604F88 /* MyWallet PassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		916100212B2CEE2F00604F88 /* MyWallet PassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916100322B2CEE2F00604F88 /* Build configuration list for PBXNativeTarget "MyWallet PassUITests" */;
+			buildPhases = (
+				9161001E2B2CEE2F00604F88 /* Sources */,
+				9161001F2B2CEE2F00604F88 /* Frameworks */,
+				916100202B2CEE2F00604F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				916100242B2CEE2F00604F88 /* PBXTargetDependency */,
+			);
+			name = "MyWallet PassUITests";
+			productName = "MyWallet PassUITests";
+			productReference = 916100222B2CEE2F00604F88 /* MyWallet PassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9161FFFA2B2CEE2E00604F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					916100012B2CEE2E00604F88 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					916100172B2CEE2F00604F88 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 916100012B2CEE2E00604F88;
+					};
+					916100212B2CEE2F00604F88 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 916100012B2CEE2E00604F88;
+					};
+				};
+			};
+			buildConfigurationList = 9161FFFD2B2CEE2E00604F88 /* Build configuration list for PBXProject "MyWallet Pass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9161FFF92B2CEE2E00604F88;
+			productRefGroup = 916100032B2CEE2E00604F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916100012B2CEE2E00604F88 /* MyWallet Pass */,
+				916100172B2CEE2F00604F88 /* MyWallet PassTests */,
+				916100212B2CEE2F00604F88 /* MyWallet PassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		916100002B2CEE2E00604F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916100122B2CEE2F00604F88 /* LaunchScreen.storyboard in Resources */,
+				9161000F2B2CEE2F00604F88 /* Assets.xcassets in Resources */,
+				9161000D2B2CEE2E00604F88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916100162B2CEE2F00604F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916100202B2CEE2F00604F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		916100142B2CEE2F00604F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9161001D2B2CEE2F00604F88 /* MyWallet_PassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9161001E2B2CEE2F00604F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916100292B2CEE2F00604F88 /* MyWallet_PassUITestsLaunchTests.swift in Sources */,
+				916100272B2CEE2F00604F88 /* MyWallet_PassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9161FFFE2B2CEE2E00604F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9161000A2B2CEE2E00604F88 /* ViewController.swift in Sources */,
+				916100062B2CEE2E00604F88 /* AppDelegate.swift in Sources */,
+				916100082B2CEE2E00604F88 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9161001A2B2CEE2F00604F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 916100012B2CEE2E00604F88 /* MyWallet Pass */;
+			targetProxy = 916100192B2CEE2F00604F88 /* PBXContainerItemProxy */;
+		};
+		916100242B2CEE2F00604F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 916100012B2CEE2E00604F88 /* MyWallet Pass */;
+			targetProxy = 916100232B2CEE2F00604F88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9161000B2B2CEE2E00604F88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9161000C2B2CEE2E00604F88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		916100102B2CEE2F00604F88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916100112B2CEE2F00604F88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9161002A2B2CEE2F00604F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9161002B2B2CEE2F00604F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9161002D2B2CEE2F00604F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyWallet Pass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.MyWallet-Pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9161002E2B2CEE2F00604F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyWallet Pass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.MyWallet-Pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		916100302B2CEE2F00604F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.MyWallet-PassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWallet Pass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyWallet Pass";
+			};
+			name = Debug;
+		};
+		916100312B2CEE2F00604F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.MyWallet-PassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWallet Pass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyWallet Pass";
+			};
+			name = Release;
+		};
+		916100332B2CEE2F00604F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.MyWallet-PassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyWallet Pass";
+			};
+			name = Debug;
+		};
+		916100342B2CEE2F00604F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.MyWallet-PassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyWallet Pass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9161002C2B2CEE2F00604F88 /* Build configuration list for PBXNativeTarget "MyWallet Pass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9161002D2B2CEE2F00604F88 /* Debug */,
+				9161002E2B2CEE2F00604F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9161002F2B2CEE2F00604F88 /* Build configuration list for PBXNativeTarget "MyWallet PassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916100302B2CEE2F00604F88 /* Debug */,
+				916100312B2CEE2F00604F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916100322B2CEE2F00604F88 /* Build configuration list for PBXNativeTarget "MyWallet PassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916100332B2CEE2F00604F88 /* Debug */,
+				916100342B2CEE2F00604F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9161FFFD2B2CEE2E00604F88 /* Build configuration list for PBXProject "MyWallet Pass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9161002A2B2CEE2F00604F88 /* Debug */,
+				9161002B2B2CEE2F00604F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9161FFFA2B2CEE2E00604F88 /* Project object */;
+}
